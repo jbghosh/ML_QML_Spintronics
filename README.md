@@ -22,7 +22,7 @@ First 16 coloumn in +1,-1 showing the magnetic configuration.
 19 and 20 column is $Sx$ and $S_y$ for 6th magnetic site.
 
 #### Quantum ML is implemented in QSVM.ipynb
+
 The relevant data file for quantum machine learning is TrainQ.npy
 
-First 2 coloumns of the dataset represent Rashba parameter (tR) and the transmission energy (E) respectively. The third column onwards represent different class columns, the sign of
-non-equilibrium $S_{x,y}$ on each site as the two output classes.
+First 2 coloumns of the dataset represent Rashba parameter ( $t_R$ ) and the transmission energy ( $E$ ) respectively. The third column onwards represent different class columns, the sign of non-equilibrium $S_{x,y}$ on each site as the two output classes.
