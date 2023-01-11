@@ -13,13 +13,13 @@ used in Fig.3 of main text. Each set contains 201 data points.
 
 ### Data structure for Classical ML:
 
-First 16 coloumn in +1,-1 showing the magnetic configuration.
+First 16 coloumns (in +1,-1) describe the magnetic configurations of the 16 magnetic sites.
 
-17th column in energy (between 0 and 200).
+17th column describes energy (between 0 and 200).
 
-18th column is transmission.
+18th column represents the transmission.
 
-19 and 20 column is $Sx$ and $S_y$ for 6th magnetic site.
+19 and 20 column are spin-components $Sx$ and $S_y$ for 6th magnetic site respectively.
 
 #### Quantum ML is implemented in QSVM.ipynb
 
