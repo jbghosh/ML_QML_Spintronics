@@ -25,4 +25,4 @@ First 16 coloumns (in +1,-1) describe the magnetic configurations of the 16 magn
 
 The relevant data file for quantum machine learning is TrainQ.npy
 
-First 2 coloumns of the dataset represent Rashba parameter ( $t_R$ ) and the transmission energy ( $E$ ) respectively. The third column onwards represent different class columns, the sign of non-equilibrium $S_{x,y}$ on each site as the two output classes.
+First 2 coloumns of the dataset represent Rashba parameter ( $t_R$ ) and the transmission energy ( $E$ ) respectively. The third column onward represent different class columns, the sign of non-equilibrium $S_{x,y}$ on each site as the two output classes.
