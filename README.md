@@ -1,28 +1,38 @@
 # Classical and quantum machine learning in spintronics.
-In this project we demonstrate the applications of classical and quantum machine learning in spintronics. 
+In this project we demonstrate the applications of classical and quantum machine learning in spintronics. For details see `Classical and quantum machine learning applications in spintronics', Kumar Ghosh, Sumit Ghosh [arXiv:2207.12837].
+
+
+
+## Relevant files for Classical ML:
 
 Classical ML is implemented in RF_fit.ipynb
 
-### Relevant files for classical ML:
-
 Train.npy contains training data.
 
-Test.npy contains testing data for 3 specific configuration
+Test.npy contains testing data for 3 specific configuration used in Fig.3 of main text. Each set contains 201 data points.
 
-used in Fig.3 of main text. Each set contains 201 data points.
+#### Data structure for Classical ML:
 
-### Data structure for Classical ML:
+Column
 
-First 16 coloumns (in +1,-1) describe the magnetic configurations of the 16 magnetic sites.
+[1-16] Magnetic configurations of the 16 magnetic sites ( $\pm1$ ).
+  [17] Energy (0.0->200.0).
+  [18] Transmission coefficient (0.0->2.0).
+  [19] Non-equilibrium $S_x$ component of 6th magnetic site (-2.0->2.0).
+  [20] Non-equilibrium $S_y$ component of 6th magnetic site (-2.0->2.0).
 
-17th column describes energy (between 0 and 200).
 
-18th column represents the transmission.
+## Relevant files for Quantum ML:
 
-19 and 20 column are spin-components $Sx$ and $S_y$ for 6th magnetic site respectively.
+Quantum ML is implemented in QSVM.ipynb
 
-#### Quantum ML is implemented in QSVM.ipynb
+The relevant data file for quantum machine learning is TrainQ.npy. This data is used to generate Fig.6.
 
-The relevant data file for quantum machine learning is TrainQ.npy
+#### Data structure for Quantum ML:
 
-First 2 coloumns of the dataset represent Rashba parameter ( $t_R$ ) and the transmission energy ( $E$ ) respectively. The third column onward represent different class columns, the sign of non-equilibrium $S_{x,y}$ on each site as the two output classes.
+Coloumn 
+
+[1] Rashba parameter (0.05->0.25).
+[2] Transmission energy (0.0->2.0).
+[3] Sign of non-equilibrium $S_x$ component of 6th magnetic site ( $\pm1$ ).
+[4] Sign of non-equilibrium $S_y$ component of 6th magnetic site ( $\pm1$ ).
