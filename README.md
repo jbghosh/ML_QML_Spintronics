@@ -1,5 +1,5 @@
 # Classical and quantum machine learning in spintronics.
-In this project we demonstrate the applications of classical and quantum machine learning in spintronics. For details see `Classical and quantum machine learning applications in spintronics', Kumar Ghosh, Sumit Ghosh [arXiv:2207.12837].
+In this project we demonstrate the applications of classical and quantum machine learning in spintronics. For details see `Classical and quantum machine learning applications in spintronics', Kumar Ghosh, Sumit Ghosh[ [arXiv:2207.12837] ](https://arxiv.org/abs/2207.12837).
 
 
 
